@@ -61,15 +61,25 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.43f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\ProjectileScene\ProjectileShooter.cs" />
     <Compile Include="Assets\Scripts\MenuSceneController.cs" />
     <Compile Include="Assets\Scripts\EventScene\ColorChanger.cs" />
+    <Compile Include="Assets\Scripts\ProjectileScene\ProjectilesPools\ProjectileType2Pool.cs" />
     <Compile Include="Assets\Scripts\Factory\SphereFactory.cs" />
     <Compile Include="Assets\Scripts\UI\FactoryUI.cs" />
+    <Compile Include="Assets\Scripts\ProjectileScene\ProjectilesPools\ProjectileType3Pool.cs" />
+    <Compile Include="Assets\Scripts\ProjectileScene\ProjectileTypes\ProjectileType3.cs" />
+    <Compile Include="Assets\Scripts\ProjectileScene\ProjectileTypes\ProjectileType1.cs" />
     <Compile Include="Assets\Scripts\Facade\SpawnFacade.cs" />
     <Compile Include="Assets\Scripts\EventScene\NumberLogger.cs" />
     <Compile Include="Assets\Scripts\EventScene\ClickEventManager.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Scripts\Factory\CapsuleFactory.cs" />
+    <Compile Include="Assets\Scripts\ProjectileScene\ProjectileTypes\ProjectileType2.cs" />
+    <Compile Include="Assets\Scripts\ProjectileScene\TargetCollider.cs" />
+    <Compile Include="Assets\Scripts\ProjectileScene\ProjectileBase.cs" />
+    <Compile Include="Assets\Scripts\ProjectileScene\ProjectilePoolBase.cs" />
+    <Compile Include="Assets\Scripts\ProjectileScene\ProjectilesPools\ProjectileType1Pool.cs" />
     <Compile Include="Assets\Scripts\Factory\IFactory.cs" />
     <Compile Include="Assets\Scripts\Factory\CubeFactory.cs" />
   </ItemGroup>
