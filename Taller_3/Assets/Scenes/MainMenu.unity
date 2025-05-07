@@ -971,7 +971,7 @@ GameObject:
   - component: {fileID: 1750300871}
   - component: {fileID: 1750300870}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Ir Cubo boton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

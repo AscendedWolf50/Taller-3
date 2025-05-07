@@ -12,4 +12,9 @@ public class MenuSceneController : MonoBehaviour
     {
         SceneManager.LoadScene("EventScene");
     }
+
+    public void GoToMainMenuScene()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
 }
