@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 
 public class ProjectileShooter : MonoBehaviour
 {
@@ -7,6 +8,21 @@ public class ProjectileShooter : MonoBehaviour
 
     private int currentType = 0;
     private bool canShoot = true;
+
+    [SerializeField] public Collider targetCollider; // Asignalo desde el Inspector
+
+    public void DisableTargetColliderForSeconds(float seconds)
+    {
+        if (targetCollider != null)
+            StartCoroutine(ReenableColliderCoroutine(seconds));
+    }
+
+    private IEnumerator ReenableColliderCoroutine(float seconds)
+    {
+        targetCollider.enabled = false;
+        yield return new WaitForSeconds(seconds);
+        targetCollider.enabled = true;
+    }
 
     void Update()
     {

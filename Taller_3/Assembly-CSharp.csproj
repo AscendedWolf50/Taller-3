@@ -66,8 +66,8 @@
     <Compile Include="Assets\Scripts\EventScene\ColorChanger.cs" />
     <Compile Include="Assets\Scripts\ProjectileScene\ProjectilesPools\ProjectileType2Pool.cs" />
     <Compile Include="Assets\Scripts\Factory\SphereFactory.cs" />
-    <Compile Include="Assets\Scripts\UI\FactoryUI.cs" />
     <Compile Include="Assets\Scripts\ProjectileScene\ProjectilesPools\ProjectileType3Pool.cs" />
+    <Compile Include="Assets\Scripts\UI\FactoryUI.cs" />
     <Compile Include="Assets\Scripts\ProjectileScene\ProjectileTypes\ProjectileType3.cs" />
     <Compile Include="Assets\Scripts\ProjectileScene\ProjectileTypes\ProjectileType1.cs" />
     <Compile Include="Assets\Scripts\Facade\SpawnFacade.cs" />

@@ -17,4 +17,9 @@ public class MenuSceneController : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    public void GoToProjectileScene()
+    {
+        SceneManager.LoadScene("ProjectileScene");
+    }
 }

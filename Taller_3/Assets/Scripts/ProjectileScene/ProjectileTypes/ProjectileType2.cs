@@ -5,8 +5,8 @@ public class ProjectileType2 : ProjectileBase
 {
     public override void HandleCollision(Collider other)
     {
-        StartCoroutine(DisableTargetTemporarily(other));
         shooter.LockFireForSeconds(1f);
+        shooter.DisableTargetColliderForSeconds(1f); // se encarga de desactivar y reactivar
         pool.ReturnProjectile(gameObject);
     }
 
